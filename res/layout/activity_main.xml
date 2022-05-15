@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/diceImage"
+        android:layout_width="@dimen/_165mdp"
+        android:layout_height="@dimen/_165mdp"
+        android:layout_marginTop="@dimen/_23mdp"
+        android:contentDescription="@string/dice_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adView" />
+
+    <ImageView
+        android:id="@+id/errorImage"
+        android:layout_width="@dimen/_47mdp"
+        android:layout_height="@dimen/_47mdp"
+        android:background="@drawable/error_icon"
+        android:contentDescription="@string/dice_image"
+        app:layout_constraintEnd_toEndOf="@+id/diceImage"
+        app:layout_constraintStart_toStartOf="@+id/diceImage"
+        app:layout_constraintTop_toTopOf="@+id/diceImage"
+        app:layout_constraintBottom_toBottomOf="@+id/diceImage" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_50font_mdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diceImage" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eczar_medium"
+        android:hint="@string/click_the_roll_button_below_to_roll_the_dice"
+        android:textColorHint="#777777"
+        android:textSize="@dimen/_10font_mdp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diceImage" />
+
+    <Button
+        android:id="@+id/diceRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/eczar_medium"
+        android:includeFontPadding="true"
+        android:paddingHorizontal="@dimen/_30mdp"
+        android:paddingVertical="@dimen/_10mdp"
+        android:text="@string/roll"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_22font_mdp"
+        android:textStyle="bold"
+        app:cornerRadius="9dp"
+        android:layout_marginBottom="@dimen/_40mdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/copyrightText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="start"
+        android:gravity="bottom"
+        android:layout_marginStart="@dimen/_2mdp"
+        android:text="@string/copyright_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_7font_mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1785962158595876/9196767935"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

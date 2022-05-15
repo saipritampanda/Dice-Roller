@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ConnectWithUs">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1785962158595876/9196767935"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eczar_medium"
+        android:text="@string/connect_with_us"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_23font_mdp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_15mdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adView" />
+
+    <TextView
+        android:id="@+id/aboutText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_14mdp"
+        android:layout_marginTop="@dimen/_36mdp"
+        android:layout_marginEnd="@dimen/_14mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:gravity="start"
+        android:text="@string/production_contact_details"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connect"
+        app:lineHeight="21dp" />
+
+    <TextView
+        android:id="@+id/aboutText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40mdp"
+        android:layout_marginEnd="@dimen/_20mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:gravity="start"
+        android:text="@string/e_mail_nightxstudio15_gmail_com"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12font_mdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutText3"
+        />
+
+    <TextView
+        android:id="@+id/aboutText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_60mdp"
+        android:layout_marginTop="@dimen/_3mdp"
+        android:layout_marginEnd="@dimen/_9mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:gravity="start"
+        android:text="@string/feedback"
+        android:textColor="#808080"
+        android:textSize="@dimen/_8font_mdp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutText8"/>
+
+    <TextView
+        android:id="@+id/aboutText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_13mdp"
+        android:layout_marginTop="@dimen/_20mdp"
+        android:layout_marginEnd="@dimen/_13mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:gravity="start"
+        android:text="@string/founder_contact_details"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutText4" />
+
+    <TextView
+        android:id="@+id/aboutText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_13mdp"
+        android:layout_marginEnd="@dimen/_13mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:gravity="start"
+        android:text="@string/sai_pritam_panda"
+        android:textColor="#808080"
+        android:textSize="@dimen/_8font_mdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutText5"
+        tools:ignore="SmallSp" />
+
+    <LinearLayout
+        android:id="@+id/socialMediaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/aboutText6"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_25mdp"
+        android:padding="@dimen/_5mdp">
+
+        <ImageButton
+            android:id="@+id/instagramButton"
+            android:layout_width="@dimen/_37mdp"
+            android:layout_height="@dimen/_37mdp"
+            android:layout_marginLeft="@dimen/_15mdp"
+            android:layout_marginRight="@dimen/_15mdp"
+            android:background="@drawable/instagram"
+            android:contentDescription="@string/instagram" />
+
+        <ImageButton
+            android:id="@+id/twitterButton"
+            android:layout_width="@dimen/_37mdp"
+            android:layout_height="@dimen/_37mdp"
+            android:layout_marginLeft="@dimen/_15mdp"
+            android:layout_marginRight="@dimen/_15mdp"
+            android:background="@drawable/twitter"
+            android:contentDescription="@string/twitter" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/aboutText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_17mdp"
+        android:layout_marginEnd="@dimen/_17mdp"
+        android:fontFamily="@font/eczar_medium"
+        android:gravity="center"
+        android:text="@string/aboutText7"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/copyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/socialMediaLayout" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eczar_medium"
+        android:padding="2sp"
+        android:text="@string/copyright_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_7font_mdp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eczar_medium"
+        android:padding="2sp"
+        android:layout_marginEnd="@dimen/_5mdp"
+        android:text="@string/diceroller_year"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_7font_mdp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SmallSp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
