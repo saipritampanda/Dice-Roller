@@ -1,0 +1,26 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-large/activity_connect_with_us.xml" value="0.1" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-large/activity_main.xml" value="0.190625" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-normal/activity_connect_with_us.xml" value="0.264" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-normal/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-small/activity_connect_with_us.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-small/activity_main.xml" value="0.1482456140350877" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-xlarge/activity_connect_with_us.xml" value="0.190625" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout-xlarge/activity_main.xml" value="0.38125" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout/activity_connect_with_us.xml" value="0.536" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/layout/exit_popup.xml" value="0.536" />
+        <entry key="..\:/Users/SAI PRITAM PANDA/AndroidStudioProjects/DiceRoller/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

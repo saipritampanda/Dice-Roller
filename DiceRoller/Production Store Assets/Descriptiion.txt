@@ -1,0 +1,27 @@
+Dice Roller is a virtual Dice roller to play any game that need the dice.
+
+With the help of Dice Roller, You don't require to take physical dice everywhere, you just need to install Dice
+Roller app once for all and you are done!
+Have you ever need a dice but you can't find it? Yes, this application is to change your dice.
+This application is just like your missing dice. This application can roll.
+
+Production Contact Details:
+• E-Mail: nightxstudio15@gmail.com
+
+
+© NightXStudio Productions
+
+
+//---Android Studio APK Info---//
+1. Key Store Path: P:\Android Projects Key Store Path\Dice Roller Key Store Path\dicerollerkeystorepath.jks
+2. Password: 15072002saipritam
+3. Alias: diceroller
+
+
+//---Other Informations---//
+1. Amazon SKU: com.nightxstudio.diceroller
+2. Amazon Submission API Key:-
+	(App ID): amzn1.devportal.mobileapp.18d63e79590b41a496c09f8e2665bf3d
+	(Release ID): amzn1.devportal.apprelease.b2675902ae6e4b21b2316a063585122e
+3. Category: Games > Dice
+4. Category Refinements: Game App Features - Casual, Indie
